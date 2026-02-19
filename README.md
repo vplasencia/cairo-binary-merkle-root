@@ -30,7 +30,7 @@ fn main(
     // Calculate Merkle root.
     let merkle_root = binary_merkle_root(commitment, merkle_proof_length, merkle_proof_indices, merkle_proof_siblings);
 
-    // Output the merkle root.
+    // Output the Merkle root.
     merkle_root
 }
 ```
